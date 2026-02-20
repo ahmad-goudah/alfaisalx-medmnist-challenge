@@ -55,3 +55,81 @@ For a given query image:
 5. Return the top-k most similar images.
 
 Example retrieval visualizations are saved in:
+
+reports/task3/
+
+
+---
+
+## 6. Evaluation Metric
+
+Retrieval performance was evaluated using:
+
+- Precision@1
+- Precision@5
+- Precision@10
+
+Precision@k is defined as:
+
+Number of retrieved images with correct label / k
+
+The results are stored in:
+
+reports/task3/precision_at_k.txt
+
+
+---
+
+## 7. Example Outputs
+
+Saved retrieval examples:
+
+- reports/task3/retrieval_query_0.png
+- reports/task3/retrieval_query_10.png
+- reports/task3/retrieval_query_25.png
+
+Each visualization shows:
+- The query image
+- The top-5 most similar retrieved images
+- Their class labels
+
+---
+
+## 8. Observations
+
+- Retrieval quality is strong when class separation is clear.
+- Some errors occur due to:
+  - Low image resolution (28×28)
+  - Similar texture patterns between classes
+  - Feature overlap in ambiguous cases
+
+Overall, learned CNN embeddings provide meaningful semantic similarity for medical image retrieval.
+
+---
+
+## 9. How to Run
+
+1. Run the main notebook:
+notebooks/AlfaisalX_Challenge.ipynb
+
+
+2. Execute all cells.
+
+3. Retrieval outputs and evaluation results will be automatically saved into:
+
+
+reports/task3/
+
+
+---
+
+## 10. Possible Improvements
+
+If more time were available, the following improvements could be explored:
+
+- Using a deeper backbone (e.g., ResNet18)
+- Using contrastive or metric learning
+- Using supervised contrastive loss
+- Adding approximate indexing methods (IVF, HNSW)
+- Adding text-to-image retrieval using multimodal models
+
