@@ -1,5 +1,5 @@
-Task 1 — CNN Classification (PneumoniaMNIST)
-1) Dataset & Preprocessing
+# Task 1 — CNN Classification (PneumoniaMNIST)
+## 1) Dataset & Preprocessing
 
 The dataset used is MedMNIST v2 – PneumoniaMNIST, a binary medical image classification dataset derived from chest X-ray images.
 
@@ -37,7 +37,7 @@ Validation and test sets were not augmented.
 
 This setup ensures better generalization while preserving evaluation fairness.
 
-2) Model Architecture
+## 2) Model Architecture
 
 A lightweight Convolutional Neural Network (CNN) was designed to efficiently handle 28×28 grayscale images.
 
@@ -73,7 +73,7 @@ The model outputs a single logit for binary classification, followed by a sigmoi
 
 This architecture is computationally efficient and well-suited for low-resolution medical images.
 
-3) Training Setup
+## 3) Training Setup
 
 Loss function: BCEWithLogitsLoss
 
@@ -89,8 +89,32 @@ Best model selection: Based on highest validation AUC
 
 Training and validation losses were tracked across epochs, and the best checkpoint was saved automatically.
 
-4) Results
+## 4) Results
 
 Evaluation was performed on the official test set using the best saved model.
 
-Test Metrics
+## 5) Test Metrics
+
+ Accuracy : 0.8814102564102564
+ Precision: 0.8542600896860987
+ Recall   : 0.9769230769230769
+ F1       : 0.9114832535885168
+ ROC-AUC  : 0.9534845496383958
+
+## 6) Saved Plots
+
+The following visualizations were generated:
+
+  Training & validation loss curve
+  → reports/task1/training_loss.png
+  
+  Validation accuracy & F1 curve
+  → reports/task1/training_accuracy.png
+  
+  Confusion matrix
+  → reports/task1/confusion_matrix.png
+  
+  ROC curve
+  → reports/task1/roc_curve.png
+  
+  The ROC-AUC close to 1.0 indicates strong separability between classes.
