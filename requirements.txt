@@ -1,0 +1,8 @@
+torch
+torchvision
+medmnist
+numpy
+pandas
+matplotlib
+scikit-learn
+faiss-cpu
