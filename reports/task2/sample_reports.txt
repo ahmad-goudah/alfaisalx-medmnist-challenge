@@ -1,0 +1,61 @@
+=== Test Image 0 | True label: 1 ===
+Raw Caption (VLM output): a black and white photo of an empty road
+
+Findings:
+- The model-generated caption may not reflect medical semantics.
+- The image resolution (28×28) limits visual detail.
+- Radiological interpretation requires higher-resolution imaging.
+
+Impression:
+- Findings are suggestive of pneumonia.
+
+Note: The vision-language model produced a generic non-medical caption, indicating domain mismatch.
+
+=== Test Image 10 | True label: 1 ===
+Raw Caption (VLM output): a black and white photo of a person walking down a path
+
+Findings:
+- The model-generated caption may not reflect medical semantics.
+- The image resolution (28×28) limits visual detail.
+- Radiological interpretation requires higher-resolution imaging.
+
+Impression:
+- Findings are suggestive of pneumonia.
+
+Note: The vision-language model produced a generic non-medical caption, indicating domain mismatch.
+
+=== Test Image 25 | True label: 0 ===
+Raw Caption (VLM output): a black and white photo of a cross
+
+Findings:
+- The model-generated caption may not reflect medical semantics.
+- The image resolution (28×28) limits visual detail.
+- Radiological interpretation requires higher-resolution imaging.
+
+Impression:
+- No obvious signs of pneumonia are observed.
+
+
+=== Test Image 50 | True label: 0 ===
+Raw Caption (VLM output): a black and white photo of an empty room
+
+Findings:
+- The model-generated caption may not reflect medical semantics.
+- The image resolution (28×28) limits visual detail.
+- Radiological interpretation requires higher-resolution imaging.
+
+Impression:
+- No obvious signs of pneumonia are observed.
+
+
+=== Test Image 100 | True label: 1 ===
+Raw Caption (VLM output): a black and white photo of a man in a suit
+
+Findings:
+- The model-generated caption may not reflect medical semantics.
+- The image resolution (28×28) limits visual detail.
+- Radiological interpretation requires higher-resolution imaging.
+
+Impression:
+- Findings are suggestive of pneumonia.
+
