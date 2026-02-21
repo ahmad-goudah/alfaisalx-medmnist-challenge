@@ -81,3 +81,9 @@ A lightweight Convolutional Neural Network (CNN) was implemented:
 - Confusion Matrix  
 
 ### Generated Plots
+
+reports/task1/training_loss.png
+reports/task1/training_accuracy.png
+reports/task1/confusion_matrix.png
+reports/task1/roc_curve.png
+reports/task1/failure_cases.png
