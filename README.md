@@ -286,6 +286,7 @@ Main notebook:
 **Dr.-Ing. Ahmad Abdullatif Goudah, Ph.D.**  
 AI / Machine Learning Engineer  
 University of Duisburg-Essen  
+Germany
 - ahmad.goudah@gmail.com
 - +491783606461
 - +201114558050
