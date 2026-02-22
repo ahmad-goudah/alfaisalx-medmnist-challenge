@@ -1,3 +1,5 @@
+# Training script with configurable hyperparameters
+
 import os
 import json
 import argparse
