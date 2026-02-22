@@ -1,0 +1,26 @@
+# Core deep learning
+torch>=2.0
+torchvision>=0.15
+
+# Dataset
+medmnist>=2.2.3
+
+# Scientific computing
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# Retrieval (Task 3)
+faiss-cpu>=1.7.4
+
+# Vision-Language Models (Task 2)
+transformers>=4.40
+accelerate>=0.30
+timm>=0.9
+
+# Biomedical language model dependency
+sacremoses>=0.0.53
+
+# Utilities
+tqdm>=4.65
