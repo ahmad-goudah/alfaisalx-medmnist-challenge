@@ -24,3 +24,7 @@ sacremoses>=0.0.53
 
 # Utilities
 tqdm>=4.65
+
+# Not mandatory, but improves reproducibility.
+pillow>=10.0
+ipykernel>=6.0
