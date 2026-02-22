@@ -1,3 +1,10 @@
+# This script outputs:
+# accuracy, precision, recall, F1, AUC
+# confusion matrix
+# ROC curve
+# training loss curve
+# failure_cases.png
+
 import os
 import json
 import argparse
